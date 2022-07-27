@@ -1,4 +1,4 @@
-# qb-casinowheel  Feel Free to join my discord!  
+# qb-casinowheel  
 
 Updated and removed old handlers by me!
 Join My Discord ! = 
