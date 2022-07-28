@@ -25,7 +25,7 @@ CreateThread(function()
         while not HasModelLoaded(model) do
             Wait(0)
         end
-        _wheel = CreateObject(model, 949.72, 45.10, 70.93276, false, false, true)
+        _wheel = CreateObject(model, 990.28, 42.84, 70.50, false, false, true)
         SetEntityHeading(_wheel, 328.0)
         SetModelAsNoLongerNeeded(model)
         
@@ -34,7 +34,7 @@ CreateThread(function()
         while not HasModelLoaded(carmodel) do
             Wait(0)
         end
-        local vehicle = CreateVehicle(carmodel, 935.11, 42.61, 71.77, 0.0, false, false)
+        local vehicle = CreateVehicle(carmodel, 975.69, 40.21, 71.71, 360.07, false, false)
         SetModelAsNoLongerNeeded(carmodel)
         FreezeEntityPosition(vehicle, true)
         local _curPos = GetEntityCoords(vehicle)
